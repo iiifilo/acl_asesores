@@ -327,6 +327,11 @@ blockquote {
 	background-color: #339BEB;
 	border-color: #339BEB;
 }
+.btn-info{
+	border-radius: 23px;
+	background-color: #445451;
+	border:1px solid black;
+}
 
 /* Collapse
 ---------------------------------- */
@@ -526,6 +531,14 @@ textarea {
 	}
 	.img-circle.about{
 		margin-left: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.site-name-and-slogan{
+		display: none;
+	}
+	.banner-caption h1{
+		font-size: 32px;
 	}
 }
 
